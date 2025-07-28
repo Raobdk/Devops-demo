@@ -72,3 +72,8 @@ def get_github_status():
 if __name__ == '__main__':
     print("🚀 Starting Flask Server...")
     app.run(debug=True, port=5000)
+    # Triggering workflow test
+git add .
+git commit -m "Trigger workflow test"
+git push
+
